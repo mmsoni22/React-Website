@@ -1,0 +1,36 @@
+.products {
+    display: flex;
+    flex-direction: column;  
+    color: #000;
+    background-color: #f4fbfe;
+}
+
+.products-wrapper {
+    margin: auto;
+}
+
+.products-wrapper > h1 {
+    margin-top: 120px;
+    margin-bottom: 13px;
+}
+
+.products-wrapper > p {
+    margin-bottom: 13px;
+}
+
+.quote {
+    margin-bottom: 120px;
+    color: #000;
+    outline: none;
+    padding: 5px 10px;
+    border: 1px solid blue;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.quote:hover {
+    color: #fff;
+    background-color: #000;
+    transform: scale(1.2);
+}
