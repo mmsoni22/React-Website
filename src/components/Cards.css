@@ -8,6 +8,10 @@
 .gallery > a {
     cursor: pointer;
 }
+
+.small-gallery > a {
+    cursor: pointer;
+}
 .responsive >h1 {
     display: flex;
     justify-content: center;
